@@ -1,0 +1,261 @@
+/*--------------- CSS for Car Kare Express ---------------*/
+
+h1, h2, h3, h4, h5, h6 { 
+	margin: 0px;
+	text-align: center;
+	font: bold arial, helvetica;
+	text-shadow: 2px 2px 1px #FF0;
+	box-shadow: 2px 2px 1px #333;
+	background: #FC3;
+	border-radius: 2px;
+	color: #000;
+}
+
+p, ul, li{
+	font: 1em arial, helvetica;
+}
+
+h1 {
+	font: 1.2em;
+}
+
+h2 {
+	font: 1em;
+}
+
+h3 {
+	font: .8em;
+}
+
+h4 {
+	font: .6em;
+}
+
+h5 {
+	font: .4em;
+}
+
+h6 {
+	font: .2em;
+}
+
+a {
+	text-decoration: none;
+}
+
+caption {
+	text-align: center;
+}
+
+/*-------------------- Body Section --------------------*/
+
+body {
+	margin: 0px auto;
+	width:1020px;
+	background: #FFF;
+	
+}
+
+/*-------------------- contentWrapper Section --------------------*/
+
+#contentWrapper {
+	width:960px;
+	padding: 5px;
+	background: #FAAF3E;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 2px 4px 5px;
+}
+
+/*-------------------- Header Section --------------------*/
+
+header {
+	background: #E0762E;
+	padding: 10px 20px;
+	-moz-column-count: 2;
+}
+
+header h1 {
+	margin-left: -105px;
+	font-size: 34px;
+}
+
+header p {
+	margin-left: -105px;
+	font-size: 24px;
+}
+
+/*-------------------- Aside Section --------------------*/
+
+aside {
+	margin: 6px auto;
+	width: 200px;
+	padding: 5px;
+	float: left;
+	background: #FFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #333;
+	overflow: hidden;
+}
+
+aside h4 {
+	margin: 5px auto;
+	text-align: center;
+	text-shadow: 1px 1px 1px #FF0;
+	box-shadow: 1px 1px 1px #333;
+	background: #FC3;
+	border-radius: 2px;
+	color: #000;
+}
+
+aside ul {
+	list-style-type: none;
+	margin-top: 10px;
+	padding: 0;
+	overflow: hidden;
+}
+
+aside li {
+	margin: 15px auto;
+	text-align: center;
+} 
+
+/*-------------------- Article --------------------*/
+
+article {
+	margin: 6px auto;
+	width: 724px;
+	padding: 10px;
+	background: #FFF;
+	float: right;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 1px 1px 2px #333;
+}
+
+article ul {
+	margin: 10px auto;
+	width: 680px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	list-style-type: none;
+	overflow: hidden;
+	box-shadow: 1px 1px 2px #333;
+} 
+
+article li{
+	float: left;
+	margin: 10px 30px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #333;
+}	
+
+article img {
+	display: inline;
+	background: #CCC;
+}
+
+article button {
+	float: right;
+	margin-left: 15px;
+	box-shadow: 1px 1px 2px #333;
+}
+
+/*-------------------- Nav Section --------------------*/
+
+nav {
+	width: 998x;
+	height: 30px;
+	margin-top: -24px;
+	background: #000;
+	border: 1px solid #000;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+	overflow: hidden;
+	margin: 1px auto;
+}
+
+nav li {
+	width: 150px;
+	float: left;
+	background: #FC3;
+	border-radius: 5px;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	height: 26px;
+	line-height: 25px;
+	text-shadow: 1px 1px 1px #FF0;
+	text-align: center;
+	background: #FC3;
+	border-radius: 5px;
+	border: 1px solid #333;
+}
+
+/*-------------------- Link Colors --------------------*/
+
+Yellow = #FF0
+Dark Gray = #999
+Red = #F00
+White = #FFF
+
+nav a:link {
+	color: #FF0;
+	background: #FF9900;
+}
+nav a:visited {
+	color: #999;
+	background: #Fc3;
+}
+
+nav a:hover {
+	color: #FFF;
+	background: #FF9900;
+}
+
+nav a:active {
+	color: #FFF;
+	background: #FF9900;
+}
+
+/*-------------------- mainSection  div--------------------*/
+
+#mainSection {
+	margin: 6px auto;
+	width: 724px;
+	padding: 10px;
+	background: #FFF;
+	float: right;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #333;
+}
+
+#mainSection p {
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+}
+
+#mainSection h2 {
+	text-shadow: 1px 1px 1px #FF0;
+	box-shadow: 1px 1px 1px #333;
+	background: #FC3;
+	border-radius: 2px;
+	color: #000;
+}
+
+/*-------------------- Footer Section --------------------*/
+
+footer {
+	width: 952px;
+	padding: 5px;
+	background-color: #000;
+	border-radius: 5px;
+	clear: both;
+	color: #CCC;
+	text-align:center;
+}
