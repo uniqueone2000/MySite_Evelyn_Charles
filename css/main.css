@@ -4,8 +4,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0px;
 	text-align: center;
 	font: bold arial, helvetica;
-	text-shadow: 2px 2px 1px #FF0;
-	box-shadow: 2px 2px 1px #333;
+	text-shadow: 1px 1px 1px #FF0;
+	box-shadow: 1px 1px 1px #333;
 	background: #FC3;
 	border-radius: 2px;
 	color: #000;
@@ -241,9 +241,6 @@ nav a:active {
 }
 
 #mainSection h2 {
-	text-shadow: 1px 1px 1px #FF0;
-	box-shadow: 1px 1px 1px #333;
-	background: #FC3;
 	border-radius: 2px;
 	color: #000;
 }
