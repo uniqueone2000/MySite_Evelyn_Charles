@@ -1,17 +1,45 @@
 /*--------------- CSS for Car Kare Express ---------------*/
 
-h1, h2, h3, h4, h5, h6 { 
-	margin: 0px;
-	text-align: center;
-	font: bold arial, helvetica;
-	text-shadow: 1px 1px 1px #FF0;
-	box-shadow: 1px 1px 1px #333;
-	background: #FC3;
-	border-radius: 2px;
-	color: #000;
+/*-------------------- Body Section --------------------*/
+
+body {
+	margin: 0px auto;
+	width:1020px;
+	background-image: url("../images/metaltextures032.png");
 }
 
-p, ul, li{
+@font-face
+{
+font-family: headerFont;
+src: url('../assets/Lao MN.ttf')
+    ,url('../assets/Lao MN.eot'); /* IE9+ */
+}
+
+@font-face
+{
+font-family: paragraphFont;
+src: url('../assets/KOMTXT__-webfont.ttf')
+    ,url('../assets/KOMTXT__-webfont.eot'); /* IE9+ */
+}
+
+
+h1, h2, h3, h4, h5, h6 { 
+	margin: 0px auto;
+	font-family: 'Lao MN',arial, helvetica;
+	text-shadow: 1px 1px 1px #FF0;
+	color: #000;
+	line-height: 1.3em;
+	text-align: center;
+	border-radius: .2em;
+}
+
+p {
+	margin: 0.8em;
+	line-height: 25px;
+	font-family: 'KOMTXT__-webfont', arial, helvetica;
+}
+
+ul, li{
 	font: 1em arial, helvetica;
 }
 
@@ -47,21 +75,12 @@ caption {
 	text-align: center;
 }
 
-/*-------------------- Body Section --------------------*/
-
-body {
-	margin: 0px auto;
-	width:1020px;
-	background-image: url("../images/metaltextures032.png");
-	
-}
-
 /*-------------------- contentWrapper Section --------------------*/
 
 #contentWrapper {
 	width:960px;
-	padding: 5px;
-	background: #FAAF3E;
+	padding: 8px;
+	background: #FC3;
 	border-radius: 5px;
 	overflow: hidden;
 	box-shadow: 2px 4px 5px;
@@ -72,17 +91,21 @@ body {
 header {
 	background: #E0762E;
 	padding: 10px 20px;
+	background-image: url('../images/orange_stripe.png'); 
+	background-repeat: repeat-x;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 	-moz-column-count: 2;
 }
 
 header h1 {
-	margin-left: -105px;
+	margin: -15px 0px 0px -105px;
 	font-size: 34px;
 }
 
 header p {
 	margin-left: -105px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 /*-------------------- Aside Section --------------------*/
@@ -94,7 +117,7 @@ aside {
 	float: left;
 	background: #FFF;
 	border-radius: 5px;
-	box-shadow: 1px 1px 2px #333;
+	background: url("../images/package_back.jpg");
 	overflow: hidden;
 }
 
@@ -126,11 +149,12 @@ article {
 	margin: 6px auto;
 	width: 724px;
 	padding: 10px;
-	background: #FFF;
+	background-image: url('../images/orange_stripe.png'); 
+	background-repeat: repeat-x;
+	background-color: #FFF;
 	float: right;
 	border-radius: 5px;
 	overflow: hidden;
-	box-shadow: 1px 1px 2px #333;
 }
 
 article ul {
@@ -141,6 +165,9 @@ article ul {
 	list-style-type: none;
 	overflow: hidden;
 	box-shadow: 1px 1px 2px #333;
+	background: #FFF;
+	background: url("../images/package_back.jpg");
+
 } 
 
 article li{
@@ -190,9 +217,10 @@ nav a {
 	display: block;
 	height: 26px;
 	line-height: 25px;
-	text-shadow: 1px 1px 1px #FF0;
+	text-shadow: 2px 2px 2px #000;
 	text-align: center;
-	background: #FC3;
+	background-image: url('../images/orange_up_button_stripe.png'); 
+	background-repeat: repeat-x;
 	border-radius: 5px;
 	border: 1px solid #333;
 }
@@ -203,24 +231,27 @@ Yellow = #FF0
 Dark Gray = #999
 Red = #F00
 White = #FFF
+Purple = 99F
 
 nav a:link {
 	color: #FF0;
-	background: #FF9900;
+	background: #F90;
 }
 nav a:visited {
-	color: #999;
-	background: #Fc3;
+	color: #CCC;
+	background: #F90;
 }
 
 nav a:hover {
-	color: #FFF;
-	background: #FF9900;
+	color: #FF0;
+	background: #C26A03;
+	background-image: url('../images/orange_button_stripe.png'); 
+	background-repeat: repeat-x;
 }
 
 nav a:active {
-	color: #FFF;
-	background: #FF9900;
+	color: #FC3;
+	background: #F90;
 }
 
 /*-------------------- mainSection  div--------------------*/
@@ -232,7 +263,6 @@ nav a:active {
 	background: #FFF;
 	float: right;
 	border-radius: 5px;
-	box-shadow: 1px 1px 2px #333;
 }
 
 #mainSection p {
@@ -240,9 +270,8 @@ nav a:active {
 	-moz-column-gap: 25px;
 }
 
-#mainSection h2 {
-	border-radius: 2px;
-	color: #000;
+#mainSection .main ul {
+	list-style-type: url('../images/coal_gear.jpg')  gear icon;
 }
 
 /*-------------------- Footer Section --------------------*/
@@ -250,7 +279,7 @@ nav a:active {
 footer {
 	width: 952px;
 	padding: 5px;
-	background-color: #000;
+	background-color: #666;
 	border-radius: 5px;
 	clear: both;
 	color: #CCC;
