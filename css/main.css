@@ -11,7 +11,7 @@ body {
 h1, h2, h3, h4, h5, h6 { 
 	margin: 0px auto;
 	font-family: 'Paytone One', arial, helvetica; 
-	text-shadow: 1px 1px 1px #FF0;
+	text-shadow: 1px 2px 4px #FF0;
 	color: #000;
 	line-height: 1.3em;
 	text-align: center;
@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	margin: 0.8em;
-	line-height: 25px;
-	font-family: 'Archivo Narrow', arial, helvetica;
+	line-height: 1.563em;
+	font: 1em 'Archivo Narrow', arial, helvetica;
 }
 
 ul, li{
@@ -85,7 +85,7 @@ header h1 {
 }
 
 header p {
-	margin-left: -105px;
+	text-indent: -1.8em;
 	font-size: 20px;
 }
 
