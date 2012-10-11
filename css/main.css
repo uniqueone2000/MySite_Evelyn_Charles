@@ -8,24 +8,9 @@ body {
 	background-image: url("../images/metaltextures032.png");
 }
 
-@font-face
-{
-font-family: headerFont;
-src: url('../assets/Lao MN.ttf')
-    ,url('../assets/Lao MN.eot'); /* IE9+ */
-}
-
-@font-face
-{
-font-family: paragraphFont;
-src: url('../assets/KOMTXT__-webfont.ttf')
-    ,url('../assets/KOMTXT__-webfont.eot'); /* IE9+ */
-}
-
-
 h1, h2, h3, h4, h5, h6 { 
 	margin: 0px auto;
-	font-family: 'Lao MN',arial, helvetica;
+	font-family: 'Paytone One', arial, helvetica; 
 	text-shadow: 1px 1px 1px #FF0;
 	color: #000;
 	line-height: 1.3em;
@@ -36,11 +21,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	margin: 0.8em;
 	line-height: 25px;
-	font-family: 'KOMTXT__-webfont', arial, helvetica;
+	font-family: 'Archivo Narrow', arial, helvetica;
 }
 
 ul, li{
-	font: 1em arial, helvetica;
+	font: 1em 'Archivo Narrow', arial, helvetica;
 }
 
 h1 {
@@ -69,10 +54,6 @@ h6 {
 
 a {
 	text-decoration: none;
-}
-
-caption {
-	text-align: center;
 }
 
 /*-------------------- contentWrapper Section --------------------*/
@@ -200,9 +181,8 @@ nav {
 
 nav ul {
 	list-style-type: none;
-	margin: 0 auto;
-	overflow: hidden;
 	margin: 1px auto;
+	overflow: hidden;
 }
 
 nav li {
@@ -270,8 +250,15 @@ nav a:active {
 	-moz-column-gap: 25px;
 }
 
-#mainSection .main ul {
-	list-style-type: url('../images/coal_gear.jpg')  gear icon;
+#mainSection ul {
+	list-style-image: url('../images/coal_gear.jpg');
+	width: 28.125em;
+	margin-left: 2.500em;
+	overflow: hidden;
+}
+
+#mainSection li {
+	margin: .5em;
 }
 
 /*-------------------- Footer Section --------------------*/
