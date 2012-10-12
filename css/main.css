@@ -3,53 +3,52 @@
 /*-------------------- Body Section --------------------*/
 
 body {
-	margin: 0px auto;
-	width:1020px;
+	width: 85.000em; /* 1020px */
 	background-image: url("../images/metaltextures032.png");
 }
 
 h1, h2, h3, h4, h5, h6 { 
-	margin: 0px auto;
+	margin: 0em auto;
 	font-family: 'Paytone One', arial, helvetica; 
-	text-shadow: 1px 2px 4px #FF0;
+	text-shadow: 0.083em 0.167em 0.333em #FF0; /* 1px 2px 4px */
 	color: #000;
-	line-height: 1.3em;
+	line-height: 1.500em; /* 18px */
 	text-align: center;
-	border-radius: .2em;
+	border-radius: .2em; /* 2px */
 }
 
 p {
-	margin: 0.8em;
-	line-height: 1.563em;
-	font: 1em 'Archivo Narrow', arial, helvetica;
+	margin: 0.417em; /* 5px */
+	line-height: 1.500em; /* 18px */
+	font: 1em 'Archivo Narrow', arial, helvetica; /* 12px */
 }
 
 ul, li{
-	font: 1em 'Archivo Narrow', arial, helvetica;
+	font: 1em 'Archivo Narrow', arial, helvetica; /* 12px */
 }
 
 h1 {
-	font: 1.2em;
+	font: 1.333em; /* 16px */
 }
 
 h2 {
-	font: 1em;
+	font: 1.167em; /* 14px */
 }
 
 h3 {
-	font: .8em;
+	font: 1.000em; /* 12px */
 }
 
 h4 {
-	font: .6em;
+	font: 0.833em; /* 10px */
 }
 
 h5 {
-	font: .4em;
+	font: .0.667em; /* 8px */
 }
 
 h6 {
-	font: .2em;
+	font: 0.500em; /* 6px */
 }
 
 a {
@@ -59,88 +58,90 @@ a {
 /*-------------------- contentWrapper Section --------------------*/
 
 #contentWrapper {
-	width:960px;
-	padding: 8px;
+	width: 94.117647058824%; /* 960px */
+	padding: 0.667em; /* 8px */
 	background: #FC3;
-	border-radius: 5px;
+	border-radius: 0.417em; /* 5px */
 	overflow: hidden;
-	box-shadow: 2px 4px 5px;
+	box-shadow: 0.167em 0.333em 0.417em; /* 2px 4px 5px */
 }
 
 /*-------------------- Header Section --------------------*/
 
 header {
+	width: 92.549019607843%; /* 944px */
 	background: #E0762E;
-	padding: 10px 20px;
+	padding: 0.833em 1.667em; /* 10px 20px */
 	background-image: url('../images/orange_stripe.png'); 
 	background-repeat: repeat-x;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-top-left-radius: 0.417em; /* 5px */
+	border-top-right-radius: 0.417em; /* 5px */
 	-moz-column-count: 2;
+	
 }
 
 header h1 {
-	margin: -15px 0px 0px -105px;
-	font-size: 34px;
+	margin: -2.1em 0em .1em 5em; /* 25px 0px 1px -3px */
+	font-size: 3.000em; /* 36px */
 }
 
 header p {
-	text-indent: -1.8em;
-	font-size: 20px;
+	margin: 5em 0em 1em 3.7em; /* 3px 0px 12px 164px  */
+	font-size: 1.667em; /* 20px */
 }
 
 /*-------------------- Aside Section --------------------*/
 
 aside {
-	margin: 6px auto;
-	width: 200px;
-	padding: 5px;
+	margin: 0.500em auto; /* 6px */
+	width: 20.833333333333%; /* 200px */
+	padding: 0.417em; /* 5px */
 	float: left;
 	background: #FFF;
-	border-radius: 5px;
+	border-radius: 0.417em; /* 5px */
 	background: url("../images/package_back.jpg");
 	overflow: hidden;
 }
 
 aside h4 {
-	margin: 5px auto;
+	margin: 0.417em auto; /* 5px */
 	text-align: center;
-	text-shadow: 1px 1px 1px #FF0;
-	box-shadow: 1px 1px 1px #333;
+	text-shadow: .1em .1em .1em #FF0; /* 1px 1px 1px  */
+	box-shadow: .1em .1em .1em #333; /* 1px 1px 1px */
 	background: #FC3;
-	border-radius: 2px;
+	border-radius: 0.167em; /*2px*/
 	color: #000;
 }
 
 aside ul {
 	list-style-type: none;
-	margin-top: 10px;
+	margin: 0.417em auto; /* 5px */
 	padding: 0;
 	overflow: hidden;
 }
 
 aside li {
-	margin: 15px auto;
+	margin: 0.833em auto 1.667em; /* 10px auto 20px */
 	text-align: center;
 } 
 
 /*-------------------- Article --------------------*/
 
 article {
-	margin: 6px auto;
-	width: 724px;
-	padding: 10px;
+	margin: 0.500em auto; /* 6px */
+	width: 75.416666666667%; /* 724px */
+	padding: 0.833em; /* 10px */
 	background-image: url('../images/orange_stripe.png'); 
 	background-repeat: repeat-x;
 	background-color: #FFF;
 	float: right;
-	border-radius: 5px;
+	border-radius: 0.417em; /* 5px */
 	overflow: hidden;
 }
 
 article ul {
-	margin: 10px auto;
-	width: 680px;
+	margin: 0.833em auto; /* 10px */
+	width: 93.922651933702%; /* 680px */
 	border: 1px solid #CCC;
 	border-radius: 5px;
 	list-style-type: none;
@@ -217,6 +218,7 @@ nav a:link {
 	color: #FF0;
 	background: #F90;
 }
+
 nav a:visited {
 	color: #CCC;
 	background: #F90;
@@ -237,7 +239,7 @@ nav a:active {
 /*-------------------- mainSection  div--------------------*/
 
 #mainSection {
-	margin: 6px auto;
+	margin: 0.500em auto; /* 6px */
 	width: 724px;
 	padding: 10px;
 	background: #FFF;
@@ -260,6 +262,50 @@ nav a:active {
 #mainSection li {
 	margin: .5em;
 }
+
+/*-------------------- CTA Button --------------------*/
+
+#quoteButton ul{
+	float: right;
+	width: 8em;
+	list-style-type: none;
+	background: #F90;
+	
+	line-height: 1.750em;
+	overflow: hidden;
+}
+
+#quoteButton li{
+	text-align: center;
+	
+}
+
+#quoteButton ul:link {
+	color: #FF0;
+	background: #F90;
+}
+
+#quoteButton ul:visited {
+	color: #CCC;
+	background: #F90;
+}
+
+#quoteButton ul:hover {
+	color: #FF0;
+	background: #C26A03;
+	background-image: url('../images/orange_button_stripe.png'); 
+	background-repeat: repeat-x;
+}
+
+#quoteButton ul:active {
+	color: #FC3;
+	background: #000;
+}
+
+#quoteButton ul: focus: {
+
+}
+
 
 /*-------------------- Footer Section --------------------*/
 
