@@ -274,12 +274,6 @@ section p {
 } 
 /*-------------------------- End of Gallery --------------------------*/
 
-/*-------------------------- Start of Table --------------------------*/
-table {
-
-}
-/*-------------------------- End of Table --------------------------*/
-
 /*-------------------------- Start of Footer --------------------------*/
 
 footer {
@@ -290,7 +284,32 @@ footer {
 	background: #E83F00;
 	border-radius: 0.375em;
 }
+
+footer h3 {
+	text-align: center;	
+}
 /*-------------------------- End of Footer --------------------------*/
+
+/*-------------------------- Start of Table --------------------------*/
+
+table {
+	width: 96.569411764706%; /* 61.563em / 63.750em */
+	margin: 0.313em auto;
+	width: border-collpase: collapse;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	text-align: justify;
+}
+
+td img {
+	margin: auto auto;
+}
+/*-------------------------- End of Table --------------------------*/
 
 /*  ======================Media Querries================  */
 
@@ -309,9 +328,9 @@ footer {
 		line-height: 1.3em;
 	}
 	
-	header h1, p {
+	header h1 {
 		margin: 0em 0em 0em .1em;
-	font-size: 2.125em;
+		font-size: 2.125em;
 	}
 	
 	header p {
