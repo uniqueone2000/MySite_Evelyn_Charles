@@ -5,10 +5,10 @@
 
 h1, h2, h3, h4, h5, h6 { 
 	margin: 0em;
-	font-family: arial, helvetica; 
+	font-family: 'Alegreya SC', serif;
 	text-shadow: 0.063em 0.125em 0.250em #FF0;
 	color: #000;
-	line-height: 1.5em;
+	
 }
 p {
 
@@ -34,7 +34,6 @@ body {
 	margin: 0.313em auto;
 	padding: 0.313em;
 	background: #EBAC02;
-	border-radius: 0.375em;
 	box-shadow: 0.313em 0.313em 0.313em #666;
 }
 /*-------------------------- End of outerWrapper --------------------------*/
@@ -42,34 +41,38 @@ body {
 /*-------------------------- Start of contentWrapper --------------------------*/
 
 #contentWrapper {
-	width: 96.38885211174387%; /* 63.750em / 65.000em */
+	width: 99.038461538462%  /* 64.375em / 65.000em */
 	margin: 0.313em auto;
-	padding: 0.125em; 
 	background: #EBAC02;
-	border-radius: 0.375em;
-	border: 0.250em solid #ddd;
+	/*border-radius: 0.188em;
+	border: 0.188em solid #666;*/
 	overflow: hidden;
+	outline: 2px solid yellow;
 }
 /*-------------------------- End of contentWrapper --------------------------*/
 
 /*-------------------------- Start of Header --------------------------*/
 
 header {
-	width: 96.569411764706%; /* 61.563em / 63.750em */
-	margin: 0.313em ;
-	padding: 0.625em;
-	background-image: url('../images/orange_stripe.png'); 
-	background-repeat: repeat-x;
+	width: 98.058252427184%; /* 60.625em / 64.375em */
+	margin: 0.313em auto;
+	/*padding: 0.625em;*/
+	background-image: url('../images/car_kare_logo_3.png'); 
+	background-repeat: no-repeat;
+	height: 4.688em;
 	border-radius: 0.375em;
+	outline: 2px solid red;
 }
 
 header h1 {
-	margin: -2.58em 0em 0em 10.4em;
+	width: auto auto;
+	margin: .1em 0em 0em 10.4em;
 	font-size: 2.125em;
+	outline: 2px solid green;
 }
 
 header p {
-	margin: -.2em 0em 2em 17.9em;
+	/*margin: -.2em 0em 2em 17.9em;*/
 	font-size: 1.250em;
 }
 /*-------------------------- End of Header --------------------------*/
@@ -141,15 +144,50 @@ nav a:active {
 
 /*-------------------------- End of Nav --------------------------*/
 
+/*-------------------------- Start of Gallery --------------------------*/
+
+#gallery {
+	width: 97.549803921569%; /* 62.188em / 63.750em */
+	margin: -1.250em 0em 0em 0.313em;
+	padding: 0.625em;
+	float: left;
+	border-radius: 0.375em;
+}
+
+#gallery h3 {
+	text-align: center;
+}
+
+#gallery ul {
+	list-style-type: none;
+	background: url("../images/package_back.jpg");
+	margin-top: 0.625em;
+	padding: 0.625em;
+	border-radius: 0.375em;
+	border: 0.188em solid #666;
+	overflow: hidden;
+}
+
+#gallery li {
+	margin-left: 4.688em;
+	float: left;
+	display: inline;
+}
+
+#gallery img {
+	max-width: 100%;
+} 
+/*-------------------------- End of Gallery --------------------------*/
+
 /*-------------------------- Start of Aside --------------------------*/
 
 aside {
 	width: 21.960784313725%; /* 14.000em / 63.750em */
-	margin: 0.313em 0em 0em 0.313em; 
+	margin: -1.250em 0em 0em 0.313em; 
 	padding: 0.313em;
 	float: left;
 	background: #FFF;
-	border: 0.250em solid #ddd;
+	border: 0.188em solid #666;
 	border-radius: 0.375em;
 	overflow: hidden;
 }
@@ -177,11 +215,11 @@ aside img {
 
 article {
 	width: 71.56862745098%; /* 45.625em / 63.750em */
-	margin: 0.313em 0.313em 0em 0em; 
+	margin: -1.250em 0.313em 0em 0em; 
 	padding: 0.625em;
 	background: url("../images/package_back.jpg");
 	float: right;
-	border: 0.250em solid #DDD;
+	border: 0.188em solid #666;
 	border-radius: 0.375em;
 	overflow: hidden;
 }
@@ -227,7 +265,7 @@ section {
 	padding: 0.625em;
 	float: right;
 	border-radius: 0.375em;
-	border: 0.250em solid #DDD;
+	border: 0.188em solid #666;
 	background: url("../images/package_back.jpg");
 }
 
@@ -237,42 +275,6 @@ section p {
 }
 /*-------------------------- End of Section --------------------------*/
 
-/*-------------------------- Start of Gallery --------------------------*/
-
-#gallery {
-	width: 96.569411764706%; /* 61.563em / 63.750em */
-	margin: 0.313em 0em 0em 0.313em;
-	padding: 0.625em;
-	float: left;
-	background: #999;
-	border-radius: 0.375em;
-}
-
-#gallery h3 {
-	text-align: center;
-}
-
-#gallery ul {
-	list-style-type: none;
-	background: #FFF;
-	margin-top: 0.625em;
-	padding: 0.625em;
-	border-radius: 0.375em;
-	overflow: hidden;
-}
-
-#gallery li {
-	width: 18.273963257151%; /* 11.250em / 61.563em */
-	margin: 0.625em 1.563em;
-	/* padding: 0.625em;*/
-	float: left;
-	display: block;
-}
-
-#gallery img {
-	max-width: 100%;
-} 
-/*-------------------------- End of Gallery --------------------------*/
 
 /*-------------------------- Start of Footer --------------------------*/
 
