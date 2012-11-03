@@ -1,22 +1,65 @@
 /*-------------------------- New CSS for Car Kare Express --------------------------*/
 
-/*-------------------------- Start of General Tags --------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) --------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
 
+/* -------------------------- End of CSS RESET --------------------------*/
+
+/*-------------------------- Start of General Tags --------------------------*/
 
 h1, h2, h3, h4, h5, h6 { 
 	margin: 0em;
 	font-family: 'Alegreya SC', serif;
 	text-shadow: 0.063em 0.125em 0.250em #FF0;
 	color: #000;
-	
-}
-p {
-
 }
 
 a {
 	text-decoration: none;
 }
+
+.header {
+	text-indent: 350px;
+}
+
 /*-------------------------- End of General Tags --------------------------*/
 
 /*-------------------------- Start of Body --------------------------*/
@@ -56,24 +99,18 @@ body {
 header {
 	width: 98.058252427184%; /* 60.625em / 64.375em */
 	margin: 0.313em auto;
-	/*padding: 0.625em;*/
 	background-image: url('../images/car_kare_logo_3.png'); 
 	background-repeat: no-repeat;
 	height: 4.688em;
 	border-radius: 0.375em;
-	outline: 2px solid red;
 }
 
-header h1 {
-	width: auto auto;
-	margin: .1em 0em 0em 10.4em;
-	font-size: 2.125em;
-	outline: 2px solid green;
+/*header h1 {
+	position: -0.3em 0em 0em 10.4em;
 }
 
 header p {
-	/*margin: -.2em 0em 2em 17.9em;*/
-	font-size: 1.250em;
+	margin: 1em 0em 2em 17.9em;
 }
 /*-------------------------- End of Header --------------------------*/
 
@@ -81,26 +118,32 @@ header p {
 /*-------------------------- Start of Nav --------------------------*/
 
 nav {
-	width: 59.375em
-	margin: 0.938em; auto;
+	width: 59.063em; /*97.938144329897%;  * 59.375em / 60.625em */
+	margin: 0.313em auto;
+	outline: 2px solid yellow;
 }
 
 nav ul {
-	width: 100%; /* 59.375em */
-	margin-left: -2em;
+	/*width: 97.938144329897%;  * 59.375em / 60.625em 
+	margin-left: -2em;*/
 	list-style-type: none;
 	overflow: hidden;
-	border-radius: 0.313em;
+	border-radius: 0.125em;
+		outline: 2px solid red;
+
 }
 
 nav li {
-	width: 9.063em; 
-	margin-left: 0.063em;
+	width: 9.89em;
+	/*margin-left: 0.063em;
+	border: 0.063em solid #000;*/
 	float: left;
-	border: 0.063em solid #000;
-	border-radius: 0.313em;
+	
+	border-radius: 0.125em;
 	background: #FC3;
 	text-shadow: 0.188em 0.063em 0.188em #666;
+		outline: 2px solid greeen;
+
 }
 
 nav a {
@@ -109,7 +152,7 @@ nav a {
 	text-align: center;
 	background-image: url('../images/orange_up_button_stripe.png'); 
 	background-repeat: repeat-x;
-	line-height: 1.563em;
+	/*line-height: 1.563em;*/
 }
 /*---------- Start of Link States ----------*/
 
