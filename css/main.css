@@ -638,7 +638,7 @@ footer {
 /*-------------------------- Start of Body --------------------------*/
 
 body {
-	margin: 0em auto;
+	margin: 0em 1.875em;
 	background-image: url("../images/metaltextures032.png");
 }
 /*-------------------------- End of Body --------------------------*/
