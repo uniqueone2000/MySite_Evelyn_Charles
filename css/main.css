@@ -376,7 +376,7 @@ td img {
 /*-------------------------- Start of Body --------------------------*/
 
 body {
-	margin: 0em auto;
+	margin: 0em 0.625em;
 	background-image: url("../images/metaltextures032.png");
 }
 /*-------------------------- End of Body --------------------------*/
@@ -384,7 +384,7 @@ body {
 /*-------------------------- Start of outerWrapper --------------------------*/
 
 #outerWrapper {
-	width: 90%; /* 65.000em */
+	width: 100%; /* 65.000em */
 	margin: 0.481538461538% auto; /* 0.313em / 65.000em */
 	background: #7E2217;
 	box-shadow: 0.313em 0.313em 0.313em #504A4B;
@@ -918,8 +918,8 @@ footer {
 /*-------------------------- Start of Body --------------------------*/
 
 body {
-	margin: 0em auto;
-	background-image: url("../images/metaltextures032.png");
+	margin: none;
+	background-image: none;
 }
 /*-------------------------- End of Body --------------------------*/
 
@@ -931,12 +931,22 @@ h1 {
 	margin: 0em 5em;
 	text-shadow: 0.063em 0.063em 0.063em #FC3;
 }
+
+/*-------------------------- Start of outerWrapper --------------------------*/
+
+#outerWrapper {
+	width: 98%; /* 65.000em */
+	margin: 0.481538461538% auto; /* 0.313em / 65.000em */
+	background: #7E2217;
+	box-shadow: 0.313em 0.313em 0.313em #504A4B;
+}
+/*-------------------------- End of outerWrapper --------------------------*/
 	
 /*-------------------------- Start of contentWrapper --------------------------*/
 
 #contentWrapper {
 	width: 99.038461538462%;  /* 64.375em / 65.000em */
-	margin: 0.313em;
+	margin: 0em;
 	padding: 0.125em;
 	/*background-image: url('../images/orange_stripe.jpg');
 	background-repeat: repeat-x;*/
