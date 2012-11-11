@@ -186,7 +186,7 @@ nav a:active {
 /*-------------------------- Start of Gallery --------------------------*/
 
 #gallery {
-	width: 	98.058252427184%; /* 60.625em / 64.375em */
+	width: 	94.660970873786%; /*98.058252427184%; /* 61.250em    60.625em / 64.375em */
 	margin: 0.486213592233%; /*0.313em / 64.375em */
 	border-radius: 0.375em;
 	border: 0.031em solid #7E2217;
@@ -992,12 +992,13 @@ nav ul {
 	list-style-type: none;
 	border-radius: 0.125em;
 	box-shadow: 0.125em 0.125em 0.125em #7E2217;
-	padding: 0;
+	padding: .5em .1em;
 	overflow: hidden;
 }
 
 nav li {
 	width: 98.058252427184%; /* 60.625em / 64.375em */
+	margin: .04em 0em;
 	float: left;
 	border: 0.031em solid #7E2217;
 	display: block;
