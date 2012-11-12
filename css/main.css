@@ -666,9 +666,9 @@ h1 {
 #contentWrapper {
 	width: 99.038461538462%;  /* 64.375em / 65.000em */
 	margin: 0.313em;
-	/*background-image: url('../images/orange_stripe.jpg');
-	background-repeat: repeat-x;*/
-	background: blue;
+	background-image: url('../images/orange_stripe.jpg');
+	background-repeat: repeat-x;
+	/*background: blue;*/
 	overflow: hidden;
 	border-radius: 0.250em;
 }
