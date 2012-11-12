@@ -948,9 +948,9 @@ h1 {
 	width: 99.038461538462%;  /* 64.375em / 65.000em */
 	margin: 0em;
 	padding: 0.125em;
-	/*background-image: url('../images/orange_stripe.jpg');
-	background-repeat: repeat-x;*/
-	background: pink;
+	background-image: url('../images/orange_stripe.jpg');
+	background-repeat: repeat-x;
+	/*background: pink;*/
 	overflow: hidden;
 	border-radius: 0.250em;
 }
