@@ -325,6 +325,13 @@ section p {
 }
 /*-------------------------- End of Section --------------------------*/
 
+/*-------------------------- Start of Clear-Fix --------------------------*/
+.clear-fix {
+	clear:both;
+	line-height: 0.063em;
+}
+/*-------------------------- End of Clear-Fix --------------------------*/
+
 
 /*-------------------------- Start of Footer --------------------------*/
 
@@ -338,12 +345,6 @@ footer {
 }
 /*-------------------------- End of Footer --------------------------*/
 
-/*-------------------------- Start of Clear-Fix --------------------------*/
-.clear-fix {
-	clear:both;
-	line-height: 0.063em;
-}
-/*-------------------------- End of Clear-Fix --------------------------*/
 
 
 /*-------------------------- Start of Table --------------------------*/
@@ -351,7 +352,7 @@ footer {
 table {
 	width: 96.569411764706%; /* 61.563em / 63.750em */
 	margin: 0.313em auto;
-	backgrond: #fff;
+	background: #fff;
 }
 
 th {
@@ -404,9 +405,8 @@ h1 {
 #contentWrapper {
 	width: 99.038461538462%;  /* 64.375em / 65.000em */
 	margin: 0.313em;
-	/*background-image: url('../images/orange_stripe.jpg');
-	background-repeat: repeat-x;*/
-	background: red;
+	background-image: url('../images/orange_stripe.jpg');
+	background-repeat: repeat-x;
 	overflow: hidden;
 	border-radius: 0.250em;
 }
@@ -647,7 +647,7 @@ footer {
 /*-------------------------- Start of Body --------------------------*/
 
 body {
-	margin: none;/*0em 1.875em;*/
+	margin: 0%;
 	background-image: url("../images/metaltextures032.png");
 }
 /*-------------------------- End of Body --------------------------*/
@@ -668,7 +668,6 @@ h1 {
 	margin: 0.313em;
 	background-image: url('../images/orange_stripe.jpg');
 	background-repeat: repeat-x;
-	/*background: blue;*/
 	overflow: hidden;
 	border-radius: 0.250em;
 }
@@ -918,7 +917,7 @@ footer {
 /*-------------------------- Start of Body --------------------------*/
 
 body {
-	margin: none;
+	margin: 0%;
 	background-image: none;
 }
 /*-------------------------- End of Body --------------------------*/
@@ -936,7 +935,7 @@ h1 {
 
 #outerWrapper {
 	width: 98.9%; /* 65.000em */
-	margin: none; /*0.481538461538% auto; /* 0.313em / 65.000em */
+	margin: 0%;
 	background: #7E2217;
 	box-shadow: 0.313em 0.313em 0.313em #504A4B;
 }
@@ -950,11 +949,21 @@ h1 {
 	padding: 0.125em;
 	background-image: url('../images/orange_stripe.jpg');
 	background-repeat: repeat-x;
-	/*background: pink;*/
 	overflow: hidden;
 	border-radius: 0.250em;
 }
 /*-------------------------- End of contentWrapper --------------------------*/
+
+/*-------------------------- Start of Header --------------------------*/
+
+header {
+	width: 98.058252427184%; /* 60.625em / 64.375em */
+	margin: 1.030927835052%; /* 0.625em / 60.625em */
+	background: url('../images/car_kare_logo_3.png') no-repeat; 
+	height: 4.688em;
+	border-radius: 0.375em;
+}
+/*-------------------------- End of Header --------------------------*/
 	
 	h2, h3, h4, h5, h6 {
 		text-align: center;
@@ -1062,7 +1071,7 @@ nav a:active {
 
 #gallery li {
 	width: 06.666666666667%; /* 4em / 60.000em*/ 
-	margin-left: 1.7em;
+	margin-left: 1.5em;
 	float: left;
 	display: inline;
 	padding: 0.313em 0 0 0.313em;
