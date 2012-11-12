@@ -935,8 +935,8 @@ h1 {
 /*-------------------------- Start of outerWrapper --------------------------*/
 
 #outerWrapper {
-	width: 100%; /* 65.000em */
-	margin: 0.481538461538% auto; /* 0.313em / 65.000em */
+	width: 98.9%; /* 65.000em */
+	margin: none; /*0.481538461538% auto; /* 0.313em / 65.000em */
 	background: #7E2217;
 	box-shadow: 0.313em 0.313em 0.313em #504A4B;
 }
