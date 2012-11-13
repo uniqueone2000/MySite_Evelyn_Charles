@@ -207,7 +207,7 @@ nav a:active {
 	margin-left: 5.3em;
 	float: left;
 	display: inline;
-	padding: 0.313em 0 0 0em;
+	padding: 0.521666666667% 0 0 0; /* 0.313em 0 0 0em;
 }
 
 #gallery img {
@@ -219,7 +219,7 @@ nav a:active {
 
 aside {
 	width: 21.747572815534%; /* 14.000em / 64.375em */
-	margin: 0.486213592233%; /*0.313em / 64.375em */
+	margin: 0.313em; /* 64.375em */
 	float: left;
 	background: rgba(225,172,2,0.3);
 	border-radius: 0.375em;
@@ -272,7 +272,7 @@ article {
 }
 
 article ul {
-	width: 96.028493150685%; /* 43.813em / 45.625em */
+	width: 90.451711466204%; /* 43.813em / 45.625em */
 	margin: 0.625em auto 0.625em;
 	list-style-type: none;
 	background: url("../images/package_back.jpg");
