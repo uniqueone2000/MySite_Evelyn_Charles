@@ -376,7 +376,7 @@ td img {
 /*-------------------------- Start of Body --------------------------*/
 
 body {
-	margin: 0% 0.625%;
+	margin: 0em 0.625em;
 	background-image: url("../images/metaltextures032.png");
 }
 /*-------------------------- End of Body --------------------------*/
@@ -390,19 +390,50 @@ body {
 	box-shadow: 0.313em 0.313em 0.313em #504A4B;
 }
 /*-------------------------- End of outerWrapper --------------------------*/
+
+h1 {
+	font: bold  1.250em/1.5 limelight, arial, helvetica, cursive; /* 50.000px */
+	color: #000;
+	text-indent: 2em;
+	width: 25em;
+	margin: 0em 5em;
+	text-shadow: 0.063em 0.063em 0.063em #FC3;
+}
 	
 /*-------------------------- Start of contentWrapper --------------------------*/
 
 #contentWrapper {
 	width: 99.038461538462%;  /* 64.375em / 65.000em */
-	margin: 0.486213592233%; /* 0.313em */
+	margin: 0.313em;
 	background-image: url('../images/orange_stripe.jpg');
 	background-repeat: repeat-x;
 	overflow: hidden;
 	border-radius: 0.250em;
 }
 /*-------------------------- End of contentWrapper --------------------------*/
-		
+	
+	h2, h3, h4, h5, h6 {
+		text-align: center;
+		line-height: 1.3em;
+	}
+	
+	header h1 {
+		margin: 0em 0em 0em .1em;
+		font-size: 2.125em;
+	}
+	
+	header p {
+		margin: 0em 0em 0em .4em;
+	}
+	
+	nav li{
+		width: 8.063em;
+	}
+	
+	nav a {
+		line-height: 1.3em;
+	}
+	
 /*-------------------------- Start of Nav --------------------------*/
 
 nav {
@@ -424,7 +455,7 @@ nav ul {
 nav li {
 	width: 16.186391752577%; /* 9.813em / 60.625em */
 	float: left;
-	border: 0.315907469683%; /*0.031em */solid #7E2217;
+	border: 0.031em solid #7E2217;
 	border-radius: 0.125em;
 	background: #FC3;
 	text-shadow: 0.250em 0.125em 0.125em #7E2217;
@@ -470,7 +501,7 @@ nav a:active {
 	width: 	98.058252427184%; /* 60.625em / 64.375em */
 	margin: 0.486213592233%; /*0.313em / 64.375em */
 	border-radius: 0.375em;
-	border: 0.051138238205%; /* 0.031em */ solid #7E2217;
+	border: 0.031em solid #7E2217;
 	background: url("../images/package_back.jpg");
 	box-shadow: 0.125em 0.125em 0.125em #7E2217;
 }
@@ -479,7 +510,7 @@ nav a:active {
 	width: 98.969072164948%; /* 60.000em / 60.625em */
 	list-style-type: none;
 	border-radius: 0.375em;
-	border: 0.313333333333%; /* 0.188em */ #FF0;
+	border: 0.188em #FF0;
 	overflow: hidden;
 }
 
@@ -488,7 +519,7 @@ nav a:active {
 	margin-left: 3.3em;
 	float: left;
 	display: inline;
-	padding: 7.825% 0 0 7.825%; /*0.313em 0 0 0.313em;*/
+	padding: 0.313em 0 0 0.313em;
 }
 
 #gallery img {
@@ -977,7 +1008,7 @@ nav ul {
 nav li {
 	width: 98.058252427184%; /* 60.625em / 64.375em */
 	margin: .04em 0em;
-	float: none;
+	float: left;
 	border: 0.031em solid #7E2217;
 	display: block;
 	border-radius: 0.125em;
@@ -1040,8 +1071,8 @@ nav a:active {
 
 #gallery li {
 	width: 06.666666666667%; /* 4em / 60.000em*/ 
-	margin-left: 3.5em;
-	float: none;
+	margin-left: 1.5em;
+	float: left;
 	display: inline;
 	padding: 0.313em 0 0 0.313em;
 }
