@@ -903,8 +903,13 @@ h1 {
 /*-------------------------- Start of outerWrapper --------------------------*/
 
 #outerWrapper {
+<<<<<<< HEAD
 	width: 98.9%; /* 65.000em */
 	margin: 0%;
+=======
+	width: 98%; /* 65.000em */
+	margin: 0.481538461538% auto; /* 0.313em / 65.000em */
+>>>>>>> parent of 521adbc... updated margin widths for mobile
 	background: #7E2217;
 	box-shadow: 0.313em 0.313em 0.313em #504A4B;
 }
