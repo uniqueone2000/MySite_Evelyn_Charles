@@ -861,7 +861,6 @@ section {
 
 section p {
 	padding: 0.658947368421%; /* 0.313em / 47.500em */
-	display: inline;
 }
 /*-------------------------- End of Section --------------------------*/
 
@@ -1148,9 +1147,7 @@ section {
 }
 
 section p {
-	margin: 1.030927835052%;
-	padding: 2em; /* .0625em / 60.625em     0.313em / 47.500em */
-	display: inline;
+	padding: 0.658947368421%; /* 0.313em / 47.500em */
 }
 /*-------------------------- End of Section --------------------------*/
 
