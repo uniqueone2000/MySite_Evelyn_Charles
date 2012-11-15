@@ -635,8 +635,9 @@ h1 {
 #contentWrapper {
 	width: 99.038461538462%;  /* 64.375em / 65.000em */
 	margin: 0.313em;
-	background-image: url('../images/orange_stripe.jpg');
-	background-repeat: repeat-x;
+	/* background-image: url('../images/orange_stripe.jpg');
+	background-repeat: repeat-x; */ 
+	background: green;
 	overflow: hidden;
 	border-radius: 0.250em;
 }
@@ -902,13 +903,10 @@ h1 {
 /*-------------------------- Start of outerWrapper --------------------------*/
 
 #outerWrapper {
-<<<<<<< HEAD
 	width: 98.9%; /* 65.000em */
 	margin: 0%;
-=======
 	width: 98%; /* 65.000em */
 	margin: 0.481538461538% auto; /* 0.313em / 65.000em */
->>>>>>> parent of 521adbc... updated margin widths for mobile
 	background: #7E2217;
 	box-shadow: 0.313em 0.313em 0.313em #504A4B;
 }
@@ -920,8 +918,9 @@ h1 {
 	width: 99.038461538462%;  /* 64.375em / 65.000em */
 	margin: 0em;
 	padding: 0.125em;
-	background-image: url('../images/orange_stripe.jpg');
-	background-repeat: repeat-x;
+/* background-image: url('../images/orange_stripe.jpg');
+	background-repeat: repeat-x; */ 
+	background: pink;
 	overflow: hidden;
 	border-radius: 0.250em;
 }
